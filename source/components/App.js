@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 
+import "./app.css";
+
 class App extends React.Component {
   state = {};
 
