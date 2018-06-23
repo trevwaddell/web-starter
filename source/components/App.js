@@ -8,7 +8,6 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Header>React Starter</Header>
-        <span>hi</span>
       </React.Fragment>
     );
   }

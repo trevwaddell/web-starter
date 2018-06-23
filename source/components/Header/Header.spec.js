@@ -5,4 +5,5 @@ import Header from "./index";
 
 it("should render with breaking", () => {
   const wrapper = shallow(<Header>Test</Header>);
+  expect(wrapper.text()).toContain("Test");
 });
